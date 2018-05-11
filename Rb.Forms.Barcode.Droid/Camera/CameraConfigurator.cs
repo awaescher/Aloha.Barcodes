@@ -242,7 +242,8 @@ namespace Rb.Forms.Barcode.Droid.Camera
         /// </summary>
         private string determineSceneMode(AndroidCamera.Parameters parameters)
         {
-            if (parameters.SupportedSceneModes.Contains(AndroidCamera.Parameters.SceneModeBarcode)) {
+            if (parameters.SupportedSceneModes?.Contains(AndroidCamera.Parameters.SceneModeBarcode) ?? false)
+            {
                 return AndroidCamera.Parameters.SceneModeBarcode;
             }
 
