@@ -7,8 +7,13 @@ using Plugin.CurrentActivity;
 
 namespace Sample.Droid
 {
+#if DEBUG
+    [Application(Debuggable = true)]
+#else
+	    [Application(Debuggable = false)]
+#endif
 	//You can specify additional application information in this attribute
-    [Application]
+    
     public class MainApplication : Application, Application.IActivityLifecycleCallbacks
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)
@@ -19,6 +24,7 @@ namespace Sample.Droid
         public override void OnCreate()
         {
             base.OnCreate();
+            CrossCurrentActivity.Current.Init(this);
             RegisterActivityLifecycleCallbacks(this);
             //A great place to initialize Xamarin.Insights and Dependency Services!
         }

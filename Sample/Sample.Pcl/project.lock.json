@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETPortable,Version=v4.5,Profile=Profile49": {
+    ".NETPortable,Version=v4.6,Profile=Profile44": {
       "Plugin.Permissions/2.2.1": {
         "type": "package",
         "compile": {
@@ -37,10 +37,12 @@
   },
   "libraries": {
     "Plugin.Permissions/2.2.1": {
-      "sha512": "ixEdsOBokh6eIofokJmru0u18hZKUODkvJZeest0CsHiiuRcO38yiTr+2Nq6Pg9hm0fhyavFQydhbldfHOp44Q==",
+      "sha512": "tMNrA7GDwISIll17ecglLU0lgiliGG0b+hHxeso5DiM++58yryxXSpPly7B4U0huTFcdHVns6AcJmDuIP1gXjw==",
       "type": "package",
       "path": "plugin.permissions/2.2.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Permissions.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Permissions.Abstractions.xml",
@@ -72,10 +74,12 @@
       ]
     },
     "Xamarin.Forms/3.0.0.446417": {
-      "sha512": "9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
+      "sha512": "z820kN6J6VP927/I1MOyDT+LIL9y6k79R/BpKyPUeQD62f/FB2L37OCf4fK9MqKSXfJdRgw6z+J70FveTJcBiA==",
       "type": "package",
       "path": "xamarin.forms/3.0.0.446417",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
@@ -219,38 +223,34 @@
       "Plugin.Permissions >= 2.2.1",
       "Xamarin.Forms >= 3.0.0.446417"
     ],
-    ".NETPortable,Version=v4.5,Profile=Profile49": []
+    ".NETPortable,Version=v4.6,Profile=Profile44": []
   },
   "packageFolders": {
-    "C:\\Users\\TonhaoSemAcento\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\TonhaoSemAcento\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\Projects\\rb-forms-barcode-master\\Sample\\Sample.Pcl\\Sample.Pcl.csproj",
+      "projectUniqueName": "E:\\Repos\\rb-forms-barcode\\Sample\\Sample.Pcl\\Sample.Pcl.csproj",
       "projectName": "Sample.Pcl",
-      "projectPath": "E:\\Projects\\rb-forms-barcode-master\\Sample\\Sample.Pcl\\Sample.Pcl.csproj",
-      "projectJsonPath": "E:\\Projects\\rb-forms-barcode-master\\Sample\\Sample.Pcl\\project.json",
+      "projectPath": "E:\\Repos\\rb-forms-barcode\\Sample\\Sample.Pcl\\Sample.Pcl.csproj",
+      "projectJsonPath": "E:\\Repos\\rb-forms-barcode\\Sample\\Sample.Pcl\\project.json",
       "packagesPath": "C:\\Users\\TonhaoSemAcento\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\rb-forms-barcode-master\\Sample\\Sample.Pcl\\obj\\",
+      "outputPath": "E:\\Repos\\rb-forms-barcode\\Sample\\Sample.Pcl\\obj\\",
       "projectStyle": "ProjectJson",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\TonhaoSemAcento\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
-        "portable45-net45+wp8": {
+        "portable46-net451+win81": {
           "projectReferences": {
-            "E:\\Projects\\rb-forms-barcode-master\\Rb.Forms.Barcode.Pcl\\Rb.Forms.Barcode.Pcl.csproj": {
-              "projectPath": "E:\\Projects\\rb-forms-barcode-master\\Rb.Forms.Barcode.Pcl\\Rb.Forms.Barcode.Pcl.csproj"
+            "E:\\Repos\\rb-forms-barcode\\Rb.Forms.Barcode.Pcl\\Rb.Forms.Barcode.Pcl.csproj": {
+              "projectPath": "E:\\Repos\\rb-forms-barcode\\Rb.Forms.Barcode.Pcl\\Rb.Forms.Barcode.Pcl.csproj"
             }
           }
         }
@@ -261,7 +261,7 @@
       "Xamarin.Forms": "[3.0.0.446417, )"
     },
     "frameworks": {
-      "portable45-net45+wp8": {}
+      "portable46-net451+win81": {}
     }
   }
 }

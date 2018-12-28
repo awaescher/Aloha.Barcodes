@@ -1,9 +1,11 @@
 ﻿using Xamarin.Forms;
 using Rb.Forms.Barcode.Pcl;
 using System;
+using Xamarin.Forms.Xaml;
 
 namespace Sample.Pcl.Pages
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScannerPage : ContentPage
     {
         public ScannerPage()
