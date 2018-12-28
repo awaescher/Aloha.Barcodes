@@ -15,6 +15,7 @@ namespace Sample.Pcl.Model
         private bool preview = true;
         private bool torch = false;
         private bool decoder = true;
+        private int lidos = 0;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -83,7 +84,8 @@ namespace Sample.Pcl.Model
 
         private void updateBarcode(Barcode barcode)
         {
-            Barcode = String.Format("Last Barcode: [{0} - {1}]", barcode?.Result, barcode?.Format);
+            lidos++;
+            Barcode = String.Format("Last Barcode: [{0} - {1} - {2}]", barcode?.Result, barcode?.Format, lidos);
         }
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = "")
