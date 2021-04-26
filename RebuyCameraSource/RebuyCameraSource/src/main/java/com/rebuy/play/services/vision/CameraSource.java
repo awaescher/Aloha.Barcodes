@@ -115,13 +115,13 @@ public class CameraSource {
     private Map<byte[], ByteBuffer> mBytesToByteBuffer = new HashMap<>();
 
     //==============================================================================================
-    // Builder
+    // RCBuilder
     //==============================================================================================
 
     /**
-     * Builder for configuring and creating an associated camera source.
+     * RCBuilder for configuring and creating an associated camera source.
      */
-    public static class Builder {
+    public static class RCBuilder {
         private final Detector<?> mDetector;
         private CameraSource mCameraSource = new CameraSource();
 
@@ -129,7 +129,7 @@ public class CameraSource {
          * Creates a camera source builder with the supplied context and detector.  Camera preview
          * images will be streamed to the associated detector upon starting the camera source.
          */
-        public Builder(Context context, Detector<?> detector) {
+        public RCBuilder(Context context, Detector<?> detector) {
             if (context == null) {
                 throw new IllegalArgumentException("No context supplied.");
             }
@@ -145,7 +145,7 @@ public class CameraSource {
          * Sets the camera to use (either {@link #CAMERA_FACING_BACK} or
          * {@link #CAMERA_FACING_FRONT}). Default: back facing.
          */
-        public Builder setFacing(int facing) {
+        public RCBuilder setFacing(int facing) {
             if ((facing != CAMERA_FACING_BACK) && (facing != CAMERA_FACING_FRONT)) {
                 throw new IllegalArgumentException("Invalid camera: " + facing);
             }
@@ -158,7 +158,7 @@ public class CameraSource {
          * parameters to your likings. The bundled {@link DefaultConfigurator} covers most of
          * the basic settings.
          */
-        public Builder setConfigurator(ConfigurationCallback configuration)
+        public RCBuilder setConfigurator(ConfigurationCallback configuration)
         {
             if (configuration == null) {
                 throw new IllegalArgumentException("No configuration supplied.");
