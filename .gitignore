@@ -353,7 +353,9 @@ MigrationBackup/
 ### XamarinStudio ###
 bin/
 obj/
+.vs/
 *.userprefs
+*.user
 
 Resource.designer.cs
 
