@@ -2,10 +2,10 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Windows.Input;
-using Rb.Forms.Barcode.Pcl.Extensions;
+using Rb.Forms.Barcode.Extensions;
 using Xamarin.Forms;
 
-namespace Rb.Forms.Barcode.Pcl
+namespace Rb.Forms.Barcode
 {
     public class BarcodeScanner : View
     {     

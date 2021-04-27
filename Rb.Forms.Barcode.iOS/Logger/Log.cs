@@ -1,5 +1,5 @@
 ﻿using System;
-using Rb.Forms.Barcode.Pcl.Logger;
+using Rb.Forms.Barcode.Logger;
 using IosDebug = System.Diagnostics.Debug;
 
 namespace Rb.Forms.Barcode.iOS.Logger

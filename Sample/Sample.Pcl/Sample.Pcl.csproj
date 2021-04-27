@@ -75,9 +75,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Rb.Forms.Barcode.Pcl\Rb.Forms.Barcode.Pcl.csproj">
+    <ProjectReference Include="..\..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj">
       <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
-      <Name>Rb.Forms.Barcode.Pcl</Name>
+      <Name>Rb.Forms.Barcode</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

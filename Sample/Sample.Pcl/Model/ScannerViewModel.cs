@@ -4,7 +4,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using Rb.Forms.Barcode.Pcl;
+using Rb.Forms.Barcode;
 
 namespace Sample.Pcl.Model
 {

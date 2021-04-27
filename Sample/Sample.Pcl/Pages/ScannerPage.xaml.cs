@@ -1,5 +1,5 @@
 ﻿using Xamarin.Forms;
-using Rb.Forms.Barcode.Pcl;
+using Rb.Forms.Barcode;
 using System;
 using Xamarin.Forms.Xaml;
 

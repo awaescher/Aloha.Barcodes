@@ -1,6 +1,6 @@
 ﻿using System;
 using AVFoundation;
-using RebuyBarcode = Rb.Forms.Barcode.Pcl.Barcode;
+using RebuyBarcode = Rb.Forms.Barcode.Barcode;
 using System.Collections.Generic;
 
 namespace Rb.Forms.Barcode.iOS.Extensions

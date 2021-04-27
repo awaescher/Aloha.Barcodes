@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using Sample.Pcl;
 using Rb.Forms.Barcode.iOS;
 using System.Collections.Generic;
-using Rb.Forms.Barcode.Pcl;
+using Rb.Forms.Barcode;
 
 namespace Sample.iOS
 {

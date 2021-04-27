@@ -5,7 +5,7 @@
     x:Class="Sample.Pcl.Pages.ScannerPage"
     xmlns:viewModels="clr-namespace:Sample.Pcl.Model;assembly=Sample.Pcl"
     xmlns:viewConverter="clr-namespace:Sample.Pcl.ViewConverter;assembly=Sample.Pcl"
-    xmlns:rbBarcode="clr-namespace:Rb.Forms.Barcode.Pcl;assembly=Rb.Forms.Barcode.Pcl">
+    xmlns:rbBarcode="clr-namespace:Rb.Forms.Barcode;assembly=Rb.Forms.Barcode">
 
     <ContentPage.BindingContext>
         <viewModels:ScannerViewModel />

@@ -114,9 +114,9 @@
       <Project>{B9877E36-1064-494B-956C-B66049778CD8}</Project>
       <Name>Rb.Forms.Barcode.iOS</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Rb.Forms.Barcode.Pcl\Rb.Forms.Barcode.Pcl.csproj">
+    <ProjectReference Include="..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj">
       <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
-      <Name>Rb.Forms.Barcode.Pcl</Name>
+      <Name>Rb.Forms.Barcode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" />

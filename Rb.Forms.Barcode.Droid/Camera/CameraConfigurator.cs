@@ -4,7 +4,7 @@ using System.Linq;
 using Android.Graphics;
 using Android.Hardware;
 using Rb.Forms.Barcode.Droid.Logger;
-using Rb.Forms.Barcode.Pcl.Logger;
+using Rb.Forms.Barcode.Logger;
 using AndroidCamera = Android.Hardware.Camera;
 using JObject = Java.Lang.Object;
 using RebuyCameraSource = Com.Rebuy.Play.Services.Vision.CameraSource;

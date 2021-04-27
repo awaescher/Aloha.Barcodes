@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rb.Forms.Barcode.Pcl
+namespace Rb.Forms.Barcode
 {
     public class Barcode
     {

@@ -3,7 +3,7 @@
   <metadata>
     <id>Rb.Forms.Barcode</id>
     <title>Barcode scanner plugin for Xamarin.Forms</title>
-    <version>0.8</version>
+    <version>0.8.1</version>
     <authors>Ota Mares, Andreas Wäscher</authors>
     <owners>reBuy reCommerce GmbH</owners>
     <licenseUrl>https://github.com/rebuy-de/rb-forms-barcode/blob/master/LICENSE</licenseUrl>

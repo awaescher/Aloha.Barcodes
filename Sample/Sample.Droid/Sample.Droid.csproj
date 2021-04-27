@@ -276,9 +276,9 @@
       <Project>{F5DC210F-379A-44CA-8FEA-0F4586240525}</Project>
       <Name>Rb.Forms.Barcode.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Rb.Forms.Barcode.Pcl\Rb.Forms.Barcode.Pcl.csproj">
+    <ProjectReference Include="..\..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj">
       <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
-      <Name>Rb.Forms.Barcode.Pcl</Name>
+      <Name>Rb.Forms.Barcode</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sample.Pcl\Sample.Pcl.csproj">
       <Project>{e42fc234-d813-44be-873f-e5dd3c77b45d}</Project>

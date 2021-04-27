@@ -1,5 +1,5 @@
 ﻿using Xamarin.Forms;
-using Rb.Forms.Barcode.Pcl;
+using Rb.Forms.Barcode;
 using Rb.Forms.Barcode.iOS;
 using Xamarin.Forms.Platform.iOS;
 using AVFoundation;
@@ -8,10 +8,10 @@ using CoreGraphics;
 using Foundation;
 using System.ComponentModel;
 using CoreFoundation;
-using RebuyBarcode = Rb.Forms.Barcode.Pcl.Barcode;
+using RebuyBarcode = Rb.Forms.Barcode.Barcode;
 using Rb.Forms.Barcode.iOS.Extensions;
 using System.Diagnostics;
-using Rb.Forms.Barcode.Pcl.Logger;
+using Rb.Forms.Barcode.Logger;
 using Rb.Forms.Barcode.iOS.Logger;
 
 [assembly: ExportRenderer(typeof(BarcodeScanner), typeof(BarcodeScannerRenderer))]

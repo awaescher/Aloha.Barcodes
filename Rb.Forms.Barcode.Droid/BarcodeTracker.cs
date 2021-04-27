@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Android.Gms.Vision;
 using Android.Gms.Vision.Barcodes;
 using Android.Runtime;
-using Rb.Forms.Barcode.Pcl;
+using Rb.Forms.Barcode;
 using AndroidBarcode = Android.Gms.Vision.Barcodes.Barcode;
 using JObject = Java.Lang.Object;
-using RebuyBarcode = Rb.Forms.Barcode.Pcl.Barcode;
+using RebuyBarcode = Rb.Forms.Barcode.Barcode;
 
 namespace Rb.Forms.Barcode.Droid
 {

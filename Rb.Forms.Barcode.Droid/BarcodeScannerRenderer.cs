@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using Android.Content.PM;
@@ -8,8 +8,8 @@ using Rb.Forms.Barcode.Droid;
 using Rb.Forms.Barcode.Droid.Camera;
 using Rb.Forms.Barcode.Droid.Logger;
 using Rb.Forms.Barcode.Droid.View;
-using Rb.Forms.Barcode.Pcl;
-using Rb.Forms.Barcode.Pcl.Logger;
+using Rb.Forms.Barcode;
+using Rb.Forms.Barcode.Logger;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 

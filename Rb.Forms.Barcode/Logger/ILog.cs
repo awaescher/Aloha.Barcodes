@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rb.Forms.Barcode.Pcl.Logger
+namespace Rb.Forms.Barcode.Logger
 {
     public interface ILog
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AndroidCamera = Android.Hardware.Camera;
-using RebuyBarcode = Rb.Forms.Barcode.Pcl.Barcode;
+using RebuyBarcode = Rb.Forms.Barcode.Barcode;
 
 namespace Rb.Forms.Barcode.Droid
 {

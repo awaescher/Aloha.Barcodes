@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rb.Forms.Barcode.Pcl.Extensions
+namespace Rb.Forms.Barcode.Extensions
 {
     public static class EventExtension
     {
