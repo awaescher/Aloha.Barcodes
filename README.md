@@ -167,6 +167,15 @@ Available tasks:
 
 ```
 
+# Build the aar files
+
+On Windows, use cmd.exe
+
+```
+SET JAVA_HOME="C:\Program Files\Java\jdk1.8.0_211"
+SET ANDROID_HOME=C:\Users\YOURUSERNAME\AppData\Local\Android\Sdk
+gradlew clean build
+```
 
 ## Sample
 
