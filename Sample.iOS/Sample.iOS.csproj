@@ -85,8 +85,6 @@
     <Reference Include="Xamarin.Essentials">
       <HintPath>..\packages\Xamarin.Essentials.1.5.2\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
     </Reference>
-    <Reference Include="OpenTK-1.0" />
-    <Reference Include="System.Drawing.Common.dll" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">

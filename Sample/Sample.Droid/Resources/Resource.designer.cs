@@ -2619,7 +2619,6 @@ namespace Sample.Droid
 			global::Rb.Forms.Barcode.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Sample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Rb.Forms.Barcode.Droid.Resource.String.abc_toolbar_collapse_description = global::Sample.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::Rb.Forms.Barcode.Droid.Resource.String.appbar_scrolling_view_behavior = global::Sample.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Rb.Forms.Barcode.Droid.Resource.String.app_name = global::Sample.Droid.Resource.String.app_name;
 			global::Rb.Forms.Barcode.Droid.Resource.String.bottomsheet_action_expand_halfway = global::Sample.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Rb.Forms.Barcode.Droid.Resource.String.bottom_sheet_behavior = global::Sample.Droid.Resource.String.bottom_sheet_behavior;
 			global::Rb.Forms.Barcode.Droid.Resource.String.character_counter_content_description = global::Sample.Droid.Resource.String.character_counter_content_description;
