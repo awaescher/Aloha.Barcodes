@@ -48,23 +48,22 @@ Update to Xamarin.Forms 5.0 and Google Play Services 117+
     </dependencies>
   </metadata>
   <files>
-      <!-- PCL -->
-     <!-- PCL -->
-     <file src="Rb.Forms.Barcode.Pcl\bin\Release\Rb.Forms.Barcode.Pcl.dll"
-         target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Rb.Forms.Barcode.Pcl.dll" />
+     <!-- netstandard -->
+     <file src="Rb.Forms.Barcode\bin\Release\netstandard1.5\Rb.Forms.Barcode.dll"
+         target="lib\netstandard1.5\Rb.Forms.Barcode.dll" />
 
      <!-- Xamarin.Android -->
-     <file src="Rb.Forms.Barcode.Droid\bin\Release\Rb.Forms.Barcode.Pcl.dll"
-         target="lib\MonoAndroid10\Rb.Forms.Barcode.Pcl.dll" />
+     <file src="Rb.Forms.Barcode.Droid\bin\Release\Rb.Forms.Barcode.dll"
+         target="lib\MonoAndroid10\Rb.Forms.Barcode.dll" />
      <file src="Rb.Forms.Barcode.Droid\bin\Release\Rb.Forms.Barcode.Droid.dll"
          target="lib\MonoAndroid10\Rb.Forms.Barcode.Droid.dll" />
      <file src="Rb.Forms.Barcode.Droid\bin\Release\CameraSourceBindings.dll"
          target="lib\MonoAndroid10\CameraSourceBindings.dll" />
 
-	<!-- Xamamarin.iOS -->
+	<!-- Xamarin.iOS -->
      <file src="Rb.Forms.Barcode.iOS\bin\Release\Rb.Forms.Barcode.iOS.dll"
          target="lib\Xamarin.iOS10\Rb.Forms.Barcode.iOS.dll" />
-     <file src="Rb.Forms.Barcode.iOS\bin\Release\Rb.Forms.Barcode.Pcl.dll"
-         target="lib\Xamarin.iOS10\Rb.Forms.Barcode.Pcl.dll" />
+     <file src="Rb.Forms.Barcode.iOS\bin\Release\Rb.Forms.Barcode.dll"
+         target="lib\Xamarin.iOS10\Rb.Forms.Barcode.dll" />
   </files>
 </package>

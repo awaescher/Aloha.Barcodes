@@ -62,13 +62,13 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Rb.Forms.Barcode.Pcl\Rb.Forms.Barcode.Pcl.csproj">
-      <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
-      <Name>Rb.Forms.Barcode.Pcl</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj">
+      <Project>{AEC9321A-C0FB-402F-A377-27CC8A623691}</Project>
+      <Name>Rb.Forms.Barcode</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" />
 </Project>
