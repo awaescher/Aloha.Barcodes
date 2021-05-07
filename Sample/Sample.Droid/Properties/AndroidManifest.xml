@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:versionCode="1" android:versionName="1.0" package="Sample.Android" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="26" />
+	<uses-sdk android:minSdkVersion="21" />
 	<application android:label="Sample.Android" tools:replace="android:label">
+		<meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="barcode" />
 		<meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode" />
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 	</application>
 	<uses-feature android:name="android.hardware.camera" />
 	<uses-permission android:name="android.permission.CAMERA" />

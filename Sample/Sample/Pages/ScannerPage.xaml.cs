@@ -3,7 +3,7 @@ using Rb.Forms.Barcode;
 using System;
 using Xamarin.Forms.Xaml;
 
-namespace Sample.Pcl.Pages
+namespace Sample.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScannerPage : ContentPage

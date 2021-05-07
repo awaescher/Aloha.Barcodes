@@ -3,8 +3,8 @@
 <MasterDetailPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:rootPage="clr-namespace:Sample.Pcl.Pages;assembly=Sample.Pcl"
-    x:Class="Sample.Pcl.Pages.MainPage">
+    xmlns:pages="clr-namespace:Sample.Pages"
+    x:Class="Sample.Pages.MainPage">
     <MasterDetailPage.Master>
         <ContentPage Title="Master" Icon="slideout.png">
             <StackLayout>
@@ -17,7 +17,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <rootPage:RootPage />
+                <pages:RootPage />
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sample.Pcl
+namespace Sample
 {
     public static class NavigationExtensions
     {

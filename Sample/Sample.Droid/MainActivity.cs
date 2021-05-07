@@ -2,7 +2,7 @@
 
 using Android.App;
 using Android.OS;
-using Sample.Pcl;
+using Sample;
 using Xamarin.Forms.Platform.Android;
 using Rb.Forms.Barcode.Droid;
 using Android.Content.PM;

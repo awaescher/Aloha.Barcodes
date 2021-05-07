@@ -13,7 +13,7 @@ namespace Rb.Forms.Barcode.Droid
         /// </summary>
         public bool HasCamera {
             get {
-                return HasFeature(PackageManager.FeatureCamera);    
+                return HasFeature (PackageManager.FeatureCamera);
             }
         }
 
@@ -22,7 +22,7 @@ namespace Rb.Forms.Barcode.Droid
         /// </summary>
         public bool HasCameraPermission {
             get {
-                return HasPermission(Android.Manifest.Permission.Camera);
+                return HasPermission (Android.Manifest.Permission.Camera);
             }
         }
 
@@ -31,7 +31,7 @@ namespace Rb.Forms.Barcode.Droid
         /// </summary>
         public bool HasFlash {
             get {
-                return HasFeature(PackageManager.FeatureCameraFlash);    
+                return HasFeature (PackageManager.FeatureCameraFlash);
             }
         }
 
@@ -40,7 +40,7 @@ namespace Rb.Forms.Barcode.Droid
         /// </summary>
         public bool HasFlashPermission {
             get {
-                return HasPermission(Android.Manifest.Permission.Flashlight);
+                return HasPermission (Android.Manifest.Permission.Flashlight);
             }
         }
 
@@ -49,34 +49,36 @@ namespace Rb.Forms.Barcode.Droid
         /// </summary>
         public bool IsGmsReady {
             get {
-                return new BarcodeDetector.Builder(getContext()).Build().IsOperational;
+                var coo = new BarcodeDetector.Builder(getContext()).Build();
+                var oop = coo.IsOperational;
+                return oop;
             }
         }
 
         /// <summary>
         /// Checks if the app/library has access to the asked permission.
         /// </summary>
-        public bool HasPermission(String permission)
+        public bool HasPermission (String permission)
         {
-            return Permission.Granted == getPackageManager().CheckPermission(permission, getContext().PackageName);
+            return Permission.Granted == getPackageManager ().CheckPermission (permission, getContext ().PackageName);
         }
 
         /// <summary>
         /// Checks if the device has the asked feature.
         /// </summary>
-        public bool HasFeature(String feature)
+        public bool HasFeature (String feature)
         {
-            return getPackageManager().HasSystemFeature(feature);
+            return getPackageManager ().HasSystemFeature (feature);
         }
 
-        private Context getContext()
+        private Context getContext ()
         {
             return Android.App.Application.Context;
         }
 
-        private PackageManager getPackageManager()
+        private PackageManager getPackageManager ()
         {
-            return getContext().PackageManager;
+            return getContext ().PackageManager;
         }
     }
 }

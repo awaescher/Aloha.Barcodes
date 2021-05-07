@@ -2,7 +2,7 @@
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Forms;
-using Sample.Pcl;
+using Sample;
 using Rb.Forms.Barcode.iOS;
 using System.Collections.Generic;
 using Rb.Forms.Barcode;

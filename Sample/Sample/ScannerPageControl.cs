@@ -1,8 +1,7 @@
 ﻿using System;
-using Sample.Pcl.Pages;
+using Sample.Pages;
 
-
-namespace Sample.Pcl
+namespace Sample
 {
     public class ScannerPageControl
     {

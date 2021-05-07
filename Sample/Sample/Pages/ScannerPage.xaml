@@ -2,9 +2,9 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Sample.Pcl.Pages.ScannerPage"
-    xmlns:viewModels="clr-namespace:Sample.Pcl.Model;assembly=Sample.Pcl"
-    xmlns:viewConverter="clr-namespace:Sample.Pcl.ViewConverter;assembly=Sample.Pcl"
+    x:Class="Sample.Pages.ScannerPage"
+    xmlns:viewModels="clr-namespace:Sample.Model"
+    xmlns:viewConverter="clr-namespace:Sample.ViewConverter"
     xmlns:rbBarcode="clr-namespace:Rb.Forms.Barcode;assembly=Rb.Forms.Barcode">
 
     <ContentPage.BindingContext>
@@ -33,10 +33,10 @@
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
         />
 
-        <ActivityIndicator IsRunning="{Binding Initialized, Converter={viewConverter:InverseBoolConverter}}"
+        <!--<ActivityIndicator IsRunning="{Binding Initialized, Converter={viewConverter:InverseBoolConverter}}"
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant=-25}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant=-25}"
-        />
+        />-->
 
         <BoxView Color="Red" HeightRequest="1" IsVisible="{Binding Initialized}"
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}"

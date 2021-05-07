@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sample.Pcl.Pages.RootPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sample.Pages.RootPage">
     <ContentPage.Content>
         <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
             <Label>Use the menu or the button below to see the BarcodeScanner in action.</Label>

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Plugin.Permissions;
-using Sample.Pcl.Helper;
+using Sample.Helper;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Sample.Pcl.Pages
+namespace Sample.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RootPage : ContentPage

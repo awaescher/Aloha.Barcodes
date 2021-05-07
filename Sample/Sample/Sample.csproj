@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Pages\RootPage.xaml" />
+    <None Include="Pages\MainPage.xaml" />
+    <None Include="Pages\ScannerPage.xaml" />
+    <None Include="Pages\ThirdPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+  </ItemGroup>
+</Project>

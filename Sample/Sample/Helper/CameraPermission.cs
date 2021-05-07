@@ -2,7 +2,7 @@
 using Plugin.Permissions.Abstractions;
 using System.Threading.Tasks;
 
-namespace Sample.Pcl.Helper
+namespace Sample.Helper
 {
     public class CameraPermission
     {

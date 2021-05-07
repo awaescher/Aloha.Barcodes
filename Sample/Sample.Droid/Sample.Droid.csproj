@@ -37,6 +37,7 @@
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -277,12 +278,12 @@
       <Name>Rb.Forms.Barcode.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj">
-      <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
+      <Project>{AEC9321A-C0FB-402F-A377-27CC8A623691}</Project>
       <Name>Rb.Forms.Barcode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Sample.Pcl\Sample.Pcl.csproj">
-      <Project>{e42fc234-d813-44be-873f-e5dd3c77b45d}</Project>
-      <Name>Sample.Pcl</Name>
+    <ProjectReference Include="..\Sample\Sample.csproj">
+      <Project>{E4A8A7B1-429F-4A78-965A-CFDEE5DECA12}</Project>
+      <Name>Sample</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

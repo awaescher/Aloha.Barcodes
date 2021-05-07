@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Rb.Forms.Barcode;
 
-namespace Sample.Pcl.Model
+namespace Sample.Model
 {
     public class ScannerViewModel : INotifyPropertyChanged
     {

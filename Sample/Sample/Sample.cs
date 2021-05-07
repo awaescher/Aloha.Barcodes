@@ -1,10 +1,10 @@
 ﻿using System;
 
 using Xamarin.Forms;
-using Sample.Pcl.Pages;
+using Sample.Pages;
 using System.Diagnostics;
 
-namespace Sample.Pcl
+namespace Sample
 {
     public class App : Application
     {

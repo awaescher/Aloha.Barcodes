@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Sample.Pcl.ViewConverter
+namespace Sample.ViewConverter
 {
     public class InverseBoolConverter : IValueConverter
     {
