@@ -7,12 +7,12 @@
     xmlns:viewConverter="clr-namespace:Sample.ViewConverter;assembly=Sample"
     xmlns:rbBarcode="clr-namespace:Maui.Barcode;assembly=Maui.Barcode">
 
-    <ContentPage.BindingContext>
-        <viewModels:ScannerViewModel />
-    </ContentPage.BindingContext>
+	<ContentPage.BindingContext>
+		<viewModels:ScannerViewModel />
+	</ContentPage.BindingContext>
 
-    <RelativeLayout>
-        <rbBarcode:BarcodeScanner x:Name="barcodeScanner"
+	<RelativeLayout>
+		<rbBarcode:BarcodeScanner x:Name="barcodeScanner"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
             PreviewActivatedCommand="{Binding PreviewActivatedCommand}"
@@ -23,61 +23,57 @@
             BarcodeDecoder="{Binding Decoder}"
         />
 
-        <BoxView Color="Transparent"
+		<BoxView Color="Transparent"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
         />
 
-        <BoxView x:Name="flash" Color="White" Opacity="0"
+		<BoxView x:Name="flash" Color="White" Opacity="0"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
         />
 
-        <!--<ActivityIndicator IsRunning="{Binding Initialized, Converter={viewConverter:InverseBoolConverter}}"
+		<!--<ActivityIndicator IsRunning="{Binding Initialized, Converter={viewConverter:InverseBoolConverter}}"
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant=-25}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant=-25}"
         />-->
 
-        <BoxView Color="Red" HeightRequest="1" IsVisible="{Binding Initialized}"
+		<BoxView Color="Red" HeightRequest="1" IsVisible="{Binding Initialized}"
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.1}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant=-1}"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.8}"
         />
 
-        <Label TextColor="Red" FontSize="17" XAlign="Center" 
+		<Label TextColor="Red" FontSize="17" XAlign="Center" 
             Text="{Binding Barcode}"
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant=20}"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
         />
 
-        <StackLayout 
+		<StackLayout 
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0}"
             Padding="20"
         >
-            <Label XAlign="Center">Hold the scanner above a barcode, wait for the autofocus and see its magic!</Label>
-        </StackLayout>
+			<Label XAlign="Center">Hold the scanner above a barcode, wait for the autofocus and see its magic!</Label>
+		</StackLayout>
 
 
-        <StackLayout
+		<StackLayout
             RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=5}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.6}"
         >
-            <Button FontSize="8" Text="Toggle preview"
+			<Button FontSize="8" Text="Toggle preview"
                 Command="{Binding TogglePreviewCommand}"
             />
 
-            <Button FontSize="8" Text="Toggle decoder"
+			<Button FontSize="8" Text="Toggle decoder"
                 Command="{Binding ToggleDecoderCommand}"
             />
 
-            <Button FontSize="8" Text="Toggle torch"
+			<Button FontSize="8" Text="Toggle torch"
                 Command="{Binding ToggleTorchCommand}"
             />
-
-            <Button FontSize="8" Text="Goto third page"
-                Clicked="gotoThirdPage"
-            />
-        </StackLayout>
-    </RelativeLayout>
+		</StackLayout>
+	</RelativeLayout>
 </ContentPage>

@@ -40,12 +40,6 @@ namespace Sample.Pages
             disableScanner(null);
         }
 
-        private void gotoThirdPage(Object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ThirdPage());
-        }
-
-
         /**
          * Release camera so that other apps can access it.
          */
