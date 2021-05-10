@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraSourceBindings", "Cam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.Barcode.iOS", "Maui.Barcode.iOS\Maui.Barcode.iOS.csproj", "{B9877E36-1064-494B-956C-B66049778CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.iOS", "Sample.iOS\Sample.iOS.csproj", "{B5AD0A16-CB0B-4ACF-806E-B49DB975046D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.iOS", "Sample\Sample.iOS\Sample.iOS.csproj", "{B5AD0A16-CB0B-4ACF-806E-B49DB975046D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Droid", "Sample\Sample.Droid\Sample.Droid.csproj", "{6975FAE2-CDF6-414E-83F4-427D7737CDB7}"
 EndProject
