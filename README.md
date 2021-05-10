@@ -189,4 +189,6 @@ There is a [full working sample](Sample/) in the github repository that should g
 
 ---
 
-Icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
+## Attributions
+
+The [palm tree icon](https://www.flaticon.com/free-icon/palm-tree_3802150) was made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
