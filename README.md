@@ -1,19 +1,17 @@
-# Rb.Forms.Barcode
+# Maui.Barcode
 
 ## What is this?
 
-Rb.Forms.Barcode is a **Xamarin.Forms view for scanning barcodes**.
-It provides continuous scanning, aims to give high control to the user  combined with high stability.
+Maui.Barcode is a fork of the archived [Rb.Forms.Barcode](https://github.com/rebuy-de/rb-forms-barcode), a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
+It provides continuous scanning, aims to give high control to the user combined with high stability.
 
-[Available via Nuget](https://www.nuget.org/packages/Rb.Forms.Barcode), full of awesomeness and also unicorns.
+[Available via Nuget](https://www.nuget.org/packages/Rb.Forms.Barcode).
 
 **Please note** that the library currently supports Android and iOS.
 
-We are very eager about your feedback, so do not hesitate to create an issue or feel free to improve our code via a contribution.
-
 ### Features
 
-* Fully Xamarin.Forms compatible. Add elements on top and adapt the ui to your needs.
+* Fully Xamarin.Forms compatible. Add elements on top and adapt the UI to your needs.
 * Lots of configuration options, bindable properties and events: Torch control, rotation support, preview freezing and other fine grained controls.
 * Build for continuous scanning!
 * Utilizing [Google Play Services Vision API](https://developers.google.com/vision/) on Android for best possible barcode scanning performance.
