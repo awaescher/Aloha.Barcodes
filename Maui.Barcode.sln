@@ -284,6 +284,6 @@ Global
 		$2.scope = text/x-csharp
 		$0.DotNetNamingPolicy = $3
 		$3.DirectoryNamespaceAssociation = PrefixedHierarchical
-		version = 0.7.1
+		version = 0.9
 	EndGlobalSection
 EndGlobal

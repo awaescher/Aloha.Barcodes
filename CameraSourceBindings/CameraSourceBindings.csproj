@@ -13,7 +13,7 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AssemblyName>CameraSourceBindings</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
-    <ReleaseVersion>0.7.1</ReleaseVersion>
+    <ReleaseVersion>0.9</ReleaseVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <AndroidClassParser>class-parse</AndroidClassParser>
