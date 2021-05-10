@@ -37,9 +37,9 @@ Maui.Barcode is a fork of the archived Rb.Forms.Barcode, originally developed by
          target="lib\MonoAndroid10\CameraSourceBindings.dll" />
 
 	<!-- Xamarin.iOS -->
-     <file src="Maui.Barcode.iOS\bin\Release\Maui.Barcode.iOS.dll"
-         target="lib\Xamarin.iOS10\Maui.Barcode.iOS.dll" />
      <file src="Maui.Barcode.iOS\bin\Release\Maui.Barcode.dll"
          target="lib\Xamarin.iOS10\Maui.Barcode.dll" />
+     <file src="Maui.Barcode.iOS\bin\Release\Maui.Barcode.iOS.dll"
+         target="lib\Xamarin.iOS10\Maui.Barcode.iOS.dll" />
   </files>
 </package>
