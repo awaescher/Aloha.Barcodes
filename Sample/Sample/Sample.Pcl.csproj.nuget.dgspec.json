@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/andreaswaescher/Developer/maui-barcode/Sample/Sample.Pcl/Sample.Pcl.csproj": {}
+  },
+  "projects": {
+    "/Users/andreaswaescher/Developer/maui-barcode/Sample/Sample.Pcl/Sample.Pcl.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/andreaswaescher/Developer/maui-barcode/Sample/Sample.Pcl/Sample.Pcl.csproj",
+        "projectName": "Sample.Pcl",
+        "projectPath": "/Users/andreaswaescher/Developer/maui-barcode/Sample/Sample.Pcl/Sample.Pcl.csproj",
+        "projectJsonPath": "/Users/andreaswaescher/Developer/maui-barcode/Sample/Sample.Pcl/project.json",
+        "packagesPath": "/Users/andreaswaescher/.nuget/packages/",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "/Users/andreaswaescher/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Plugin.Permissions": "[6.0.1, )",
+        "Xamarin.Forms": "[5.0.0.2012, )"
+      },
+      "frameworks": {
+        "portable46-net451+win81": {}
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ using Android.App;
 using Android.OS;
 using Sample;
 using Xamarin.Forms.Platform.Android;
-using Rb.Forms.Barcode.Droid;
+using Maui.Barcode.Droid;
 using Android.Content.PM;
 using Xamarin.Forms;
 using AndroidCamera = Android.Hardware.Camera;

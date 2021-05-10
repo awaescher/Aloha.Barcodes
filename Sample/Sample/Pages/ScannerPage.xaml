@@ -2,10 +2,10 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Sample.Pages.ScannerPage"
-    xmlns:viewModels="clr-namespace:Sample.Model"
-    xmlns:viewConverter="clr-namespace:Sample.ViewConverter"
-    xmlns:rbBarcode="clr-namespace:Rb.Forms.Barcode;assembly=Rb.Forms.Barcode">
+    x:Class="Sample.Pcl.Pages.ScannerPage"
+    xmlns:viewModels="clr-namespace:Sample.Pcl.Model;assembly=Sample.Pcl"
+    xmlns:viewConverter="clr-namespace:Sample.Pcl.ViewConverter;assembly=Sample.Pcl"
+    xmlns:rbBarcode="clr-namespace:Maui.Barcode;assembly=Maui.Barcode">
 
     <ContentPage.BindingContext>
         <viewModels:ScannerViewModel />

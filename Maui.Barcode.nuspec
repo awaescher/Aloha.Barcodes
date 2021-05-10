@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Maui.Barcode</id>
+    <title>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms</title>
+    <version>0.9.0</version>
+    <authors>Ota Mares, Andreas Wäscher</authors>
+    <owners>Andreas Wäscher</owners>
+    <licenseUrl>https://github.com/awaescher/maui-barcode/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/awaescher/maui-barcode</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Maui.Barcode is a Xamarin.Forms view for scanning barcodes, prepared for Microsoft MAUI.</description>
+    <summary>Maui.Barcode is a Xamarin.Forms view for scanning barcodes, prepared for Microsoft MAUI.
+Maui.Barcode is a fork of the archived Rb.Forms.Barcode, originally developed by reBuy reCommerce GmbH.
+    </summary>
+    <tags>maui barcode scanner scanning scan xamarin xamarin.forms googleplayservices vision gms</tags>
+    <dependencies>
+        <group>
+            <dependency id="Xamarin.Forms" version="5.0.0.2012" />
+        </group>
+        <group targetFramework="MonoAndroid10">
+            <dependency id="Xamarin.GooglePlayServices.Vision" version="120.1.3" />
+        </group>
+    </dependencies>
+  </metadata>
+  <files>
+     <!-- netstandard -->
+     <file src="Maui.Barcode\bin\Release\netstandard1.5\Maui.Barcode.dll"
+         target="lib\netstandard1.5\Maui.Barcode.dll" />
+
+     <!-- Xamarin.Android -->
+     <file src="Maui.Barcode.Droid\bin\Release\Maui.Barcode.dll"
+         target="lib\MonoAndroid10\Maui.Barcode.dll" />
+     <file src="Maui.Barcode.Droid\bin\Release\Maui.Barcode.Droid.dll"
+         target="lib\MonoAndroid10\Maui.Barcode.Droid.dll" />
+     <file src="Maui.Barcode.Droid\bin\Release\CameraSourceBindings.dll"
+         target="lib\MonoAndroid10\CameraSourceBindings.dll" />
+
+	<!-- Xamarin.iOS -->
+     <file src="Maui.Barcode.iOS\bin\Release\Maui.Barcode.iOS.dll"
+         target="lib\Xamarin.iOS10\Maui.Barcode.iOS.dll" />
+     <file src="Maui.Barcode.iOS\bin\Release\Maui.Barcode.dll"
+         target="lib\Xamarin.iOS10\Maui.Barcode.dll" />
+  </files>
+</package>

@@ -3,7 +3,7 @@
     <ContentPage.Content>
         <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
             <Label>Use the menu or the button below to see the BarcodeScanner in action.</Label>
-            <Label>Please report any issues or feature requests at https://github.com/rebuy-de/rb-forms-barcode</Label>
+            <Label>Please report any issues or feature requests at https://github.com/awaescher/maui-barcode</Label>
             <Button Text="Scan all the things!" Clicked="gotoScannerPage" />
         </StackLayout>
     </ContentPage.Content>

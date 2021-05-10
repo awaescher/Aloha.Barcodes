@@ -2,10 +2,10 @@
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Forms;
-using Sample;
-using Rb.Forms.Barcode.iOS;
+using Sample.Pcl;
+using Maui.Barcode.iOS;
 using System.Collections.Generic;
-using Rb.Forms.Barcode;
+using Maui.Barcode;
 
 namespace Sample.iOS
 {

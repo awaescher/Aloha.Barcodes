@@ -31,7 +31,7 @@ Target "Gradlew" (fun _ ->
 )
 
 Target "BuildSolution" (fun _ ->
-    [ "./Rb.Forms.Barcode.sln" ]
+    [ "./Maui.Barcode.sln" ]
     |> MSBuildRelease null "Build"
     |> ignore
 )
