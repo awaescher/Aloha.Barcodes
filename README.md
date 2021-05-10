@@ -6,7 +6,9 @@
 
 ## What is this?
 
-Maui.Barcode is a fork of the archived [Maui.Barcode](https://github.com/rebuy-de/rb-forms-barcode), a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
+Maui.Barcode is a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
+This repository is a fork of the archived [Rb.Forms.Barcode](https://github.com/rebuy-de/rb-forms-barcode), originally developed by reBuy reCommerce GmbH.
+
 It provides continuous scanning, aims to give high control to the user combined with high stability.
 
 [Available via Nuget](https://www.nuget.org/packages/Maui.Barcode).
