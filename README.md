@@ -181,10 +181,6 @@ There is a [full working sample](Sample/) in the github repository that should g
 
 ![Android sample](sample.jpg)
 
-## Whats planed
+-
 
-Take a look at our [planned features issue list](https://github.com/rebuy-de/rb-forms-barcode/labels/planned%20feature) or even better contribute! :)
-
-## Contributing
-
-Don't hesitate to fork and improve the code, as long as you share it with us. ;)
+Icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
