@@ -1,3 +1,7 @@
+<p align="center">
+<img src="Mauicode.png" width="300">
+</p>
+
 # Maui.Barcode
 
 ## What is this?
@@ -181,6 +185,6 @@ There is a [full working sample](Sample/) in the github repository that should g
 
 ![Android sample](sample.jpg)
 
--
+---
 
 Icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
