@@ -1,8 +1,6 @@
-﻿using System;
-
+﻿
 using Xamarin.Forms;
 using Sample.Pages;
-using System.Diagnostics;
 
 namespace Sample
 {

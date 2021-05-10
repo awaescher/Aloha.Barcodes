@@ -75,7 +75,7 @@ For a hands-on experience it is recommended to [take a look at the sample applic
 
 **Since beta 0.5.0** the library only handles the most basic camera controls. The scanning starts as soon as the element is visible on screen and stops when the view element gets removed from the stack.
 
-Given the complexity of apps there are a lot of combinations that prevent a reasonable automatic control of the camera. For example when [sleeping](Sample/Sample.Pcl/Pages/ScannerPage.xaml.cs#L18)/[resuming](Sample/Sample.Pcl/Pages/ScannerPage.xaml.cs#L19) the device, when the [page gets disposed](Sample/Sample.Pcl/Pages/ScannerPage.xaml.cs#L74-L76) without notifying the view or another page get pushed onto the stack.
+Given the complexity of apps there are a lot of combinations that prevent a reasonable automatic control of the camera. For example when [sleeping](Sample/Sample/Pages/ScannerPage.xaml.cs#L18)/[resuming](Sample/Sample/Pages/ScannerPage.xaml.cs#L19) the device, when the [page gets disposed](Sample/Sample/Pages/ScannerPage.xaml.cs#L74-L76) without notifying the view or another page get pushed onto the stack.
 
 Thats why you should weave in camera control code into the logic of your app by utilizing the offered bindings. Not doing so might lead to bad performance or unexpected camera exceptions.
 

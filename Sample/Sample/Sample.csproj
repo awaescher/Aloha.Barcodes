@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
+    <ReleaseVersion>0.7.1</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,9 +12,10 @@
     <None Include="Pages\ThirdPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Rb.Forms.Barcode\Rb.Forms.Barcode.csproj" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <ProjectReference Include="..\..\Maui.Barcode\Maui.Barcode.csproj" />
   </ItemGroup>
 </Project>

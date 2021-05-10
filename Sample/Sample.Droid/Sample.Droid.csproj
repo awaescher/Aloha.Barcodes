@@ -240,7 +240,6 @@
     <Reference Include="Xamarin.AndroidX.ConstraintLayout">
       <HintPath>..\..\packages\Xamarin.AndroidX.ConstraintLayout.2.0.4.2\lib\monoandroid90\Xamarin.AndroidX.ConstraintLayout.dll</HintPath>
     </Reference>
-    <Reference Include="Java.Interop" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -279,7 +278,7 @@
       <Name>Maui.Barcode.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Maui.Barcode\Maui.Barcode.csproj">
-      <Project>{677C433A-8C1F-466F-91CA-1181FDF29795}</Project>
+      <Project>{AEC9321A-C0FB-402F-A377-27CC8A623691}</Project>
       <Name>Maui.Barcode</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sample\Sample.csproj">
