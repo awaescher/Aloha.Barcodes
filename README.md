@@ -1,12 +1,12 @@
 <p align="center">
-<img src="Mauicode.png" width="300">
+<img src="Alohacode.png" width="300">
 </p>
 
 # Aloha.Barcodes
 
 ## What is this?
 
-Aloha.Barcodes is a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
+Aloha.Barcodes is a **Microsoft MAUI & Xamarin.Forms view for scanning barcodes**.
 This repository is a fork of the archived [Rb.Forms.Barcode](https://github.com/rebuy-de/rb-forms-barcode), originally developed by reBuy reCommerce GmbH.
 
 It provides continuous scanning, aims to give high control to the user combined with high stability.
@@ -118,7 +118,8 @@ By default the compatibility mode is enabled to ensure the highest device compat
 
 Simple example:
 
-    var config = new Configuration {
+    var config = new Configuration
+    {
         // Some devices, mostly samsung, stop auto focusing as soon as one of the advanced features is enabled.
         CompatibilityMode = Build.Manufacturer.Contains("samsung")
     };
