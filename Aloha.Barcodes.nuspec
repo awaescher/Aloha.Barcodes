@@ -2,17 +2,19 @@
 <package >
   <metadata>
     <id>Aloha.Barcodes</id>
-    <title>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms</title>
+    <title>Aloha.Barcodes</title>
     <version>0.9.0</version>
+    <copyright>Andreas Wäscher 2021</copyright>
     <icon>images\Alohacode.png</icon>
     <authors>Ota Mares, Andreas Wäscher</authors>
     <owners>Andreas Wäscher</owners>
     <license type="file">LICENSE</license>
     <projectUrl>https://github.com/awaescher/Aloha.Barcodes</projectUrl>
+    <repository url="https://github.com/awaescher/Aloha.Barcodes" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms.</description>
     <summary>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms.
-Aloha.Barcodes is a fork of the archived Rb.Forms.Barcode, originally developed by reBuy reCommerce GmbH.
+Aloha.Barcodes is a fork of the archived Rb.Forms.Barcode project, originally developed by reBuy reCommerce GmbH.
     </summary>
     <tags>maui barcode scanner scanning scan xamarin xamarin.forms googleplayservices vision gms</tags>
     <dependencies>
@@ -47,7 +49,7 @@ Aloha.Barcodes is a fork of the archived Rb.Forms.Barcode, originally developed 
 
 
     <!--Icon-->
-    <file src="Mauicode.png" target="images\" />
+    <file src="Alohacode.png" target="images\" />
 
     <!--License-->
     <file src="LICENSE" target="LICENSE" />
