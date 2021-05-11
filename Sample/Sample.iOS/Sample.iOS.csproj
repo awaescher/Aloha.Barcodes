@@ -105,13 +105,13 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..packages\Xamarin.Forms.3.0.0.446417\build\netstandard2.0Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.0.0.446417\build\netstandard2.0Xamarin.Forms.targets')" />
   <ItemGroup>
-    <ProjectReference Include="..\..\Maui.Barcode\Maui.Barcode.csproj">
+    <ProjectReference Include="..\..\Aloha.Barcodes\Aloha.Barcodes.csproj">
       <Project>{AEC9321A-C0FB-402F-A377-27CC8A623691}</Project>
-      <Name>Maui.Barcode</Name>
+      <Name>Aloha.Barcodes</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Maui.Barcode.iOS\Maui.Barcode.iOS.csproj">
+    <ProjectReference Include="..\..\Aloha.Barcodes.iOS\Aloha.Barcodes.iOS.csproj">
       <Project>{B9877E36-1064-494B-956C-B66049778CD8}</Project>
-      <Name>Maui.Barcode.iOS</Name>
+      <Name>Aloha.Barcodes.iOS</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sample\Sample.csproj">
       <Project>{E4A8A7B1-429F-4A78-965A-CFDEE5DECA12}</Project>

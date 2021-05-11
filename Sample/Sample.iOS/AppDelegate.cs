@@ -2,9 +2,9 @@
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using Xamarin.Forms;
-using Maui.Barcode.iOS;
+using Aloha.Barcodes.iOS;
 using System.Collections.Generic;
-using Maui.Barcode;
+using Aloha.Barcodes;
 
 namespace Sample.iOS
 {

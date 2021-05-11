@@ -273,13 +273,13 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.1\build\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.1\build\Xamarin.GooglePlayServices.Basement.targets')" />
   <ItemGroup>
-    <ProjectReference Include="..\..\Maui.Barcode.Droid\Maui.Barcode.Droid.csproj">
+    <ProjectReference Include="..\..\Aloha.Barcodes.Droid\Aloha.Barcodes.Droid.csproj">
       <Project>{F5DC210F-379A-44CA-8FEA-0F4586240525}</Project>
-      <Name>Maui.Barcode.Droid</Name>
+      <Name>Aloha.Barcodes.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Maui.Barcode\Maui.Barcode.csproj">
+    <ProjectReference Include="..\..\Aloha.Barcodes\Aloha.Barcodes.csproj">
       <Project>{AEC9321A-C0FB-402F-A377-27CC8A623691}</Project>
-      <Name>Maui.Barcode</Name>
+      <Name>Aloha.Barcodes</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sample\Sample.csproj">
       <Project>{E4A8A7B1-429F-4A78-965A-CFDEE5DECA12}</Project>

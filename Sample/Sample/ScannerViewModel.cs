@@ -4,7 +4,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using Maui.Barcode;
+using Aloha.Barcodes;
 
 namespace Sample.Model
 {

@@ -1,5 +1,5 @@
 ﻿using Xamarin.Forms;
-using Maui.Barcode;
+using Aloha.Barcodes;
 using System;
 using Xamarin.Forms.Xaml;
 

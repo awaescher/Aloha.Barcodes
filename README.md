@@ -2,16 +2,16 @@
 <img src="Mauicode.png" width="300">
 </p>
 
-# Maui.Barcode
+# Aloha.Barcodes
 
 ## What is this?
 
-Maui.Barcode is a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
+Aloha.Barcodes is a **Xamarin.Forms view for scanning barcodes**, prepared for Microsoft MAUI.
 This repository is a fork of the archived [Rb.Forms.Barcode](https://github.com/rebuy-de/rb-forms-barcode), originally developed by reBuy reCommerce GmbH.
 
 It provides continuous scanning, aims to give high control to the user combined with high stability.
 
-[Available via Nuget](https://www.nuget.org/packages/Maui.Barcode).
+[Available via Nuget](https://www.nuget.org/packages/Aloha.Barcodes).
 
 **Please note** that the library currently supports Android and iOS.
 
@@ -25,7 +25,7 @@ It provides continuous scanning, aims to give high control to the user combined 
 
 ## Setup
 
-1. Install the [package via nuget](https://www.nuget.org/packages/Maui.Barcode) into your PCL and platform specific projects.
+1. Install the [package via nuget](https://www.nuget.org/packages/Aloha.Barcodes) into your PCL and platform specific projects.
 2. [Set the appropriate Android permissions](http://developer.android.com/guide/topics/media/camera.html#manifest) to allow your app to access the camera and flash if need be.
 4. Add the registration call `BarcodeScannerRenderer.Init();` to your platform specific Main class.
 4. Use the `BarcodeScanner` class in your c# or xaml code.
@@ -112,7 +112,7 @@ What | Type | Description
 
 ### Configuration
 
-Configuration can be applied by passing a `Configuration` object to the `BarcodeScannerRenderer.Init()` method. As the available options are platform specific, the configuration has to be done in the according platform solution. The corresponding [Android](Maui.Barcode.Droid/Configuration.cs) class documentation should give you a solid understanding of the available options.
+Configuration can be applied by passing a `Configuration` object to the `BarcodeScannerRenderer.Init()` method. As the available options are platform specific, the configuration has to be done in the according platform solution. The corresponding [Android](Aloha.Barcodes.Droid/Configuration.cs) class documentation should give you a solid understanding of the available options.
 
 By default the compatibility mode is enabled to ensure the highest device compatibility.
 
@@ -127,28 +127,28 @@ Simple example:
 
 ### Debugging
 
-Maui.Barcode provides you with a tremendous amount of debug information, so check your application log if anything goes wrong:
+Aloha.Barcodes provides you with a tremendous amount of debug information, so check your application log if anything goes wrong:
 
 ```
-[Maui.Barcode] [BarcodeScannerRenderer] OnElementChanged
-[Maui.Barcode] [BarcodeScannerRenderer] OnElementPropertyChanged
-[Maui.Barcode] [BarcodeScannerRenderer] SurfaceCreated
-[Maui.Barcode] [BarcodeScannerRenderer] SurfaceChanged
-[Maui.Barcode] [CameraConfigurator] Focus Mode [continuous-picture]
-[Maui.Barcode] [CameraConfigurator] Scene Mode [auto]
-[Maui.Barcode] [CameraConfigurator] Metering area [True]
-[Maui.Barcode] [CameraConfigurator] Focusing area [True]
-[Maui.Barcode] [CameraConfigurator] Video stabilization [True]
-[Maui.Barcode] [CameraConfigurator] White balance [auto]
-[Maui.Barcode] [BarcodeScannerRenderer] OnElementPropertyChanged
+[Aloha.Barcodes] [BarcodeScannerRenderer] OnElementChanged
+[Aloha.Barcodes] [BarcodeScannerRenderer] OnElementPropertyChanged
+[Aloha.Barcodes] [BarcodeScannerRenderer] SurfaceCreated
+[Aloha.Barcodes] [BarcodeScannerRenderer] SurfaceChanged
+[Aloha.Barcodes] [CameraConfigurator] Focus Mode [continuous-picture]
+[Aloha.Barcodes] [CameraConfigurator] Scene Mode [auto]
+[Aloha.Barcodes] [CameraConfigurator] Metering area [True]
+[Aloha.Barcodes] [CameraConfigurator] Focusing area [True]
+[Aloha.Barcodes] [CameraConfigurator] Video stabilization [True]
+[Aloha.Barcodes] [CameraConfigurator] White balance [auto]
+[Aloha.Barcodes] [BarcodeScannerRenderer] OnElementPropertyChanged
 [ScannerView] OnBarcodeChanged [886970911399 - UpcA]
 [ScannerView] OnBarcodeDecoded [886970911399 - UpcA]
 Decoded barcode [886970911399 - UpcA]
-[Maui.Barcode] [BarcodeScannerRenderer] SurfaceDestroyed
-[Maui.Barcode] [BarcodeScannerRenderer] OnElementPropertyChanged
-[Maui.Barcode] [BarcodeScannerRenderer] Enabled [False]
-[Maui.Barcode] [BarcodeScannerRenderer] OnElementPropertyChanged
-[Maui.Barcode] [BarcodeScannerRenderer] Disposing
+[Aloha.Barcodes] [BarcodeScannerRenderer] SurfaceDestroyed
+[Aloha.Barcodes] [BarcodeScannerRenderer] OnElementPropertyChanged
+[Aloha.Barcodes] [BarcodeScannerRenderer] Enabled [False]
+[Aloha.Barcodes] [BarcodeScannerRenderer] OnElementPropertyChanged
+[Aloha.Barcodes] [BarcodeScannerRenderer] Disposing
 ```
 
 ### FAKE options / Tasks

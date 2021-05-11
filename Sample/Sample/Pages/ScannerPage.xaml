@@ -5,7 +5,7 @@
     x:Class="Sample.Pages.ScannerPage"
     xmlns:viewModels="clr-namespace:Sample.Model;assembly=Sample"
     xmlns:viewConverter="clr-namespace:Sample.ViewConverter;assembly=Sample"
-    xmlns:rbBarcode="clr-namespace:Maui.Barcode;assembly=Maui.Barcode">
+    xmlns:rbBarcode="clr-namespace:Aloha.Barcodes;assembly=Aloha.Barcodes">
 
 	<ContentPage.BindingContext>
 		<viewModels:ScannerViewModel />

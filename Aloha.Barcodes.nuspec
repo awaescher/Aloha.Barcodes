@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Aloha.Barcodes</id>
+    <title>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms</title>
+    <version>0.9.0</version>
+    <icon>images\Alohacode.png</icon>
+    <authors>Ota Mares, Andreas Wäscher</authors>
+    <owners>Andreas Wäscher</owners>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/awaescher/Aloha.Barcodes</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms.</description>
+    <summary>Barcode scanner plugin for Microsoft MAUI and Xamarin.Forms.
+Aloha.Barcodes is a fork of the archived Rb.Forms.Barcode, originally developed by reBuy reCommerce GmbH.
+    </summary>
+    <tags>maui barcode scanner scanning scan xamarin xamarin.forms googleplayservices vision gms</tags>
+    <dependencies>
+        <group targetFramework="netstandard1.5">
+            <dependency id="Xamarin.Forms" version="5.0.0.2012" />
+        </group>
+        <group targetFramework="MonoAndroid10">
+            <dependency id="Xamarin.GooglePlayServices.Vision" version="120.1.3" />
+        </group>
+        <group targetFramework="Xamarin.iOS10">
+        </group>
+    </dependencies>
+  </metadata>
+  <files>
+     <!-- netstandard -->
+     <file src="Aloha.Barcodes\bin\Release\netstandard1.5\Aloha.Barcodes.dll"
+         target="lib\netstandard1.5\Aloha.Barcodes.dll" />
+
+     <!-- Xamarin.Android -->
+     <file src="Aloha.Barcodes.Droid\bin\Release\Aloha.Barcodes.dll"
+         target="lib\MonoAndroid10\Aloha.Barcodes.dll" />
+     <file src="Aloha.Barcodes.Droid\bin\Release\Aloha.Barcodes.Droid.dll"
+         target="lib\MonoAndroid10\Aloha.Barcodes.Droid.dll" />
+     <file src="Aloha.Barcodes.Droid\bin\Release\CameraSourceBindings.dll"
+         target="lib\MonoAndroid10\CameraSourceBindings.dll" />
+
+	<!-- Xamarin.iOS -->
+     <file src="Aloha.Barcodes.iOS\bin\Release\Aloha.Barcodes.dll"
+         target="lib\Xamarin.iOS10\Aloha.Barcodes.dll" />
+     <file src="Aloha.Barcodes.iOS\bin\Release\Aloha.Barcodes.iOS.dll"
+         target="lib\Xamarin.iOS10\Aloha.Barcodes.iOS.dll" />
+
+
+    <!--Icon-->
+    <file src="Mauicode.png" target="images\" />
+
+    <!--License-->
+    <file src="LICENSE" target="LICENSE" />
+  </files>
+</package>

@@ -16,6 +16,6 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Maui.Barcode\Maui.Barcode.csproj" />
+    <ProjectReference Include="..\..\Aloha.Barcodes\Aloha.Barcodes.csproj" />
   </ItemGroup>
 </Project>
